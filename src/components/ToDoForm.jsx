@@ -11,8 +11,6 @@ const TodoForm = ({onFormSubmit}) => {
             status: 0,
             priority: form.getFieldValue('priority')
         });
-        console.log(form.getFieldValue('name'));
-        console.log(form.getFieldValue('priority'));
 
         form.resetFields();
     };
